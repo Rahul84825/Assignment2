@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 140px;
+    background-color: #fff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 36px;
+    color: #364856;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: large;
+}
+
+.navbar ul li a {
+    color: #6D8595;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.username {
+    background-color: #e6f6ff;
+    color: #3DBAFF;
+    padding: 19px 25px;
+    border-radius: 13px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 190px;
+    gap: 70px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.hero-content :first-child{
+    font-size: 49px;
+    color: #4B5B67;
+}
+
+.half_heading{
+    margin-top: 17px;
+}
+.span {
+    color: #06A8FF;
+    margin-top: 14px; 
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #9FAAB2;
+}
+
+.book-button {
+    background-color: #22B0FF;
+    color: #fff;
+    border: none;
+    padding: 25px 45px;
+    font-size: 16px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width:550px; /* Adjust as needed */
+    height: 550px;
+}
