@@ -1,21 +1,26 @@
+/* General body styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #ffffff;
     color: #333;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    overflow: hidden; 
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 140px;
+    padding: 2vh 8vw;
     background-color: #fff;
 }
 
 .logo {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2.5vw;
     color: #364856;
 }
 
@@ -24,63 +29,68 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    font-size: large;
+    font-size: 1.2vw; 
 }
 
 .navbar ul li a {
     color: #6D8595;
-    padding: 0 15px;
+    padding: 0 1.5vw; 
     text-decoration: none;
 }
 
 .username {
     background-color: #e6f6ff;
     color: #3DBAFF;
-    padding: 19px 25px;
+    padding: 1.5vh 2vw;
     border-radius: 13px;
+    font-size: 1.2vw; 
 }
+
 
 .hero-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 190px;
-    gap: 70px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    padding: 2vh 10vw;
+    gap: 5vw;
+    flex-grow: 1;
 }
 
-.hero-content :first-child{
-    font-size: 49px;
+.hero-content :first-child {
+    font-size: 3.5vw; 
     color: #4B5B67;
 }
 
-.half_heading{
-    margin-top: 17px;
+.half_heading {
+    margin-top: 1vh;
 }
+
 .span {
     color: #06A8FF;
-    margin-top: 14px; 
+    margin-top: 1vh;
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 1.2vw;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
     color: #9FAAB2;
+    max-width: 50ch;
 }
 
 .book-button {
     background-color: #22B0FF;
     color: #fff;
     border: none;
-    padding: 25px 45px;
-    font-size: 16px;
+    padding: 2vh 3vw;
+    font-size: 1.2vw;
     border-radius: 17px;
     cursor: pointer;
 }
 
+/* Hero Image styles */
 .hero-image img {
-    max-width:550px; /* Adjust as needed */
-    height: 550px;
+    max-width: 100%;
+    height: 50vh;
+    width: auto; 
 }
